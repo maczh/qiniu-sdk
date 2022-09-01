@@ -1,3 +1,4 @@
+//go:build unit
 // +build unit
 
 package storage
@@ -7,7 +8,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/qiniu/go-sdk/v7/conf"
+	"github.com/maczh/qiniu-sdk/v7/conf"
 )
 
 func TestVariable(t *testing.T) {

@@ -1,3 +1,4 @@
+//go:build integration
 // +build integration
 
 package linking
@@ -6,7 +7,7 @@ import (
 	"runtime/debug"
 	"testing"
 
-	"github.com/qiniu/go-sdk/v7/auth"
+	"github.com/maczh/qiniu-sdk/v7/auth"
 )
 
 var (

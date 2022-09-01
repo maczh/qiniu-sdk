@@ -1,4 +1,4 @@
-module github.com/qiniu/go-sdk/v7
+module github.com/maczh/qiniu-sdk/v7
 
 go 1.14
 

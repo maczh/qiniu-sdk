@@ -1,8 +1,8 @@
 package pili
 
 import (
-	"github.com/qiniu/go-sdk/v7/auth"
-	"github.com/qiniu/go-sdk/v7/client"
+	"github.com/maczh/qiniu-sdk/v7/auth"
+	"github.com/maczh/qiniu-sdk/v7/client"
 )
 
 // Manager 提供了 Qiniu PILI Service API 相关功能

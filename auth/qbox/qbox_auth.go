@@ -1,7 +1,7 @@
 package qbox
 
 import (
-	"github.com/qiniu/go-sdk/v7/auth"
+	"github.com/maczh/qiniu-sdk/v7/auth"
 	"net/http"
 )
 

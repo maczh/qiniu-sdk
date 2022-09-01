@@ -16,7 +16,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/qiniu/go-sdk/v7/client"
+	"github.com/maczh/qiniu-sdk/v7/client"
 )
 
 // PutExtra 为表单上传的额外可选项

@@ -1,3 +1,4 @@
+//go:build integration
 // +build integration
 
 package storage
@@ -14,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qiniu/go-sdk/v7/auth"
-	"github.com/qiniu/go-sdk/v7/auth/qbox"
-	"github.com/qiniu/go-sdk/v7/client"
+	"github.com/maczh/qiniu-sdk/v7/auth"
+	"github.com/maczh/qiniu-sdk/v7/auth/qbox"
+	"github.com/maczh/qiniu-sdk/v7/client"
 )
 
 var (

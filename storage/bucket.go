@@ -18,8 +18,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/qiniu/go-sdk/v7/auth"
-	"github.com/qiniu/go-sdk/v7/client"
+	"github.com/maczh/qiniu-sdk/v7/auth"
+	"github.com/maczh/qiniu-sdk/v7/client"
 )
 
 // 资源管理相关的默认域名
@@ -936,6 +936,7 @@ type ListItem struct {
 	MimeType string `json:"mimeType"`
 	Type     int    `json:"type"`
 	EndUser  string `json:"endUser"`
+	Md5      string `json:"md5"`
 }
 
 // 接口可能返回空的记录

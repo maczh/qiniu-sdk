@@ -44,8 +44,8 @@ package main
 
 import (
 	// ...
-	"github.com/qiniu/go-sdk/v7/auth"
-	"github.com/qiniu/go-sdk/v7/qvs"
+	"github.com/maczh/qiniu-sdk/v7/auth"
+	"github.com/maczh/qiniu-sdk/v7/qvs"
 )
 
 var (

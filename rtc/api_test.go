@@ -1,3 +1,4 @@
+//go:build integration
 // +build integration
 
 package rtc
@@ -12,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qiniu/go-sdk/v7/auth"
+	"github.com/maczh/qiniu-sdk/v7/auth"
 )
 
 var manager *Manager

@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/qiniu/go-sdk/v7/auth"
+	"github.com/maczh/qiniu-sdk/v7/auth"
 )
 
 // Fusion CDN服务域名

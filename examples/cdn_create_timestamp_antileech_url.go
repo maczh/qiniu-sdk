@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/qiniu/go-sdk/v7/cdn"
+	"github.com/maczh/qiniu-sdk/v7/cdn"
 )
 
 func main() {

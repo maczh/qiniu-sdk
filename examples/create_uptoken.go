@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/qiniu/go-sdk/v7/auth"
-	"github.com/qiniu/go-sdk/v7/storage"
+	"github.com/maczh/qiniu-sdk/v7/auth"
+	"github.com/maczh/qiniu-sdk/v7/storage"
 )
 
 var (

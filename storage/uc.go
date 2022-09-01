@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/qiniu/go-sdk/v7/auth"
+	"github.com/maczh/qiniu-sdk/v7/auth"
 )
 
 // BucketSummary 存储空间信息

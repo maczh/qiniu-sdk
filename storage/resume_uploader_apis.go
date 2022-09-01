@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/qiniu/go-sdk/v7/client"
-	"github.com/qiniu/go-sdk/v7/conf"
+	"github.com/maczh/qiniu-sdk/v7/client"
+	"github.com/maczh/qiniu-sdk/v7/conf"
 )
 
 type resumeUploaderAPIs struct {

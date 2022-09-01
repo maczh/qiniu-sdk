@@ -12,8 +12,8 @@ import (
 	"sort"
 	"strings"
 
-	api "github.com/qiniu/go-sdk/v7"
-	"github.com/qiniu/go-sdk/v7/conf"
+	api "github.com/maczh/qiniu-sdk/v7"
+	"github.com/maczh/qiniu-sdk/v7/conf"
 )
 
 const (

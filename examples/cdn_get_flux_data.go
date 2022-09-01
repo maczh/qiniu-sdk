@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/qiniu/go-sdk/v7/auth"
-	"github.com/qiniu/go-sdk/v7/cdn"
+	"github.com/maczh/qiniu-sdk/v7/auth"
+	"github.com/maczh/qiniu-sdk/v7/cdn"
 )
 
 var (

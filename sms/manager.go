@@ -3,9 +3,9 @@ package sms
 import (
 	"net/http"
 
-	"github.com/qiniu/go-sdk/v7/auth"
-	"github.com/qiniu/go-sdk/v7/sms/client"
-	"github.com/qiniu/go-sdk/v7/sms/rpc"
+	"github.com/maczh/qiniu-sdk/v7/auth"
+	"github.com/maczh/qiniu-sdk/v7/sms/client"
+	"github.com/maczh/qiniu-sdk/v7/sms/rpc"
 )
 
 var (

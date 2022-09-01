@@ -1,3 +1,4 @@
+//go:build uint || integration
 // +build uint integration
 
 package pili
@@ -5,7 +6,7 @@ package pili
 import (
 	"os"
 
-	"github.com/qiniu/go-sdk/v7/client"
+	"github.com/maczh/qiniu-sdk/v7/client"
 	"github.com/stretchr/testify/assert"
 )
 

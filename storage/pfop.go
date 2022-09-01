@@ -3,9 +3,9 @@ package storage
 import (
 	"context"
 	"fmt"
-	"github.com/qiniu/go-sdk/v7/auth"
-	"github.com/qiniu/go-sdk/v7/client"
-	"github.com/qiniu/go-sdk/v7/conf"
+	"github.com/maczh/qiniu-sdk/v7/auth"
+	"github.com/maczh/qiniu-sdk/v7/client"
+	"github.com/maczh/qiniu-sdk/v7/conf"
 	"net/http"
 )
 

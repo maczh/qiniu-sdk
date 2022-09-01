@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/qiniu/go-sdk/v7/client"
+	"github.com/maczh/qiniu-sdk/v7/client"
 )
 
 // Base64Uploader 表示一个Base64上传对象

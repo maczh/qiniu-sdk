@@ -4,7 +4,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/qiniu/go-sdk/v7"
+	"github.com/maczh/qiniu-sdk/v7"
 )
 
 // 分片上传过程中可能遇到的错误

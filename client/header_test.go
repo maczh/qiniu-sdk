@@ -1,3 +1,4 @@
+//go:build integration
 // +build integration
 
 package client
@@ -5,7 +6,7 @@ package client
 import (
 	"context"
 	"fmt"
-	"github.com/qiniu/go-sdk/v7/auth"
+	"github.com/maczh/qiniu-sdk/v7/auth"
 	"net/http"
 	"os"
 	"testing"

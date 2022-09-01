@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/qiniu/go-sdk/v7/conf"
+	"github.com/maczh/qiniu-sdk/v7/conf"
 	"net/http"
 	"time"
 )

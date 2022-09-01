@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2
         with:
-          path: src/github.com/qiniu/go-sdk
+          path: src/github.com/maczh/qiniu-sdk
           ref: ${{ github.ref }}
       - name: Install Go
         uses: actions/setup-go@v2
@@ -50,7 +50,7 @@ jobs:
           GOPATH=$GITHUB_WORKSPACE go get gopkg.in/yaml.v3
 
           GOPATH=$GITHUB_WORKSPACE make unittest
-        working-directory: src/github.com/qiniu/go-sdk
+        working-directory: src/github.com/maczh/qiniu-sdk
   go-mod-test:
     needs: 'go-path-test'
     strategy:

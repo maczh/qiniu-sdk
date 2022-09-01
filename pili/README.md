@@ -54,7 +54,7 @@ package main
 
 import (
 	// ...
-	"github.com/qiniu/go-sdk/v7/pili"
+	"github.com/maczh/qiniu-sdk/v7/pili"
 )
 
 var (
